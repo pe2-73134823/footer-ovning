@@ -10,17 +10,7 @@
     padding: 20px;
     border: 2px solid black;
     border-radius: 5px;
-    margin-bottom: 60px;
-}
-.footer {
-    background-color: purple;
-    color: white;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    margin: -8px;
-    margin-bottom: 0px;
+    margin-bottom: 140px;
 }
 .about {
     background-color: lightpink;
@@ -47,4 +37,29 @@
 }
 .category:hover {
     filter: brightness(1.05);
+}
+footer {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: -8px;
+    margin-bottom: 0px;
+}
+.footerlistwrap {
+    display: block;
+    margin-left: calc((100% - 340px) / 2);
+}
+.footerlist {
+    float: left;
+    list-style: none;
+}
+footer>p {
+    margin-top: 90px;
+}
+a {
+    text-decoration: none;
+    color: white;
 }
