@@ -1,0 +1,50 @@
+.header {
+    background-color: purple;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    margin: -8px;
+}
+.content {
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 60px;
+}
+.footer {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: -8px;
+    margin-bottom: 0px;
+}
+.about {
+    background-color: lightpink;
+}
+.portfolio {
+    background-color: lightblue;
+}
+.lorem {
+    background-color: lightgreen;
+}
+.category {
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+.category:last-child {
+    margin-bottom: 0px;
+}
+.category:first-child {
+    margin-top: 0px;
+}
+.category:hover {
+    filter: brightness(1.05);
+}
